@@ -9,7 +9,9 @@ function Card() {
         <div className='card-holder'>
           <div className='column'>
             <img className='music-hero' src={hero} alt='music-hero'></img>
-            <h1 className='title'>Order Summary</h1>
+            <div className='title-parent'>
+              <h1 className='title'>Order Summary</h1>
+            </div>
             <div className='description-parent'>
               <text className='description'>
                 You can now listen to millions of songs, audiobooks, and
